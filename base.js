@@ -13,6 +13,15 @@ function getMarkdownPath() {
     return `/static/markdown/${markdownPath}`;
 }
 
+function toggleSource() {
+  const sourceDiv = document.getElementById('source');
+  if (sourceDiv.style.display === 'none') {
+    sourceDiv.style.display = 'block'; // Show it
+  } else {
+    sourceDiv.style.display = 'none';  // Hide it
+  }
+}
+
 function loadMarkdownPage() 
 {
     const markdownPath = getMarkdownPath();
@@ -25,6 +34,7 @@ function loadMarkdownPage()
     
     if (contentDiv) {
       contentDiv.appendChild(zeroMdElement);
+      console.log(zeroMdElement.bodyClass);
       const noteElement = contentDiv.querySelector('div.note');
       if (noteElement) {
         noteElement.remove();
@@ -40,6 +50,10 @@ function changeEditTime()
     let nFullDate = "This page was last modified on ".concat("", oLastModif.toLocaleDateString().concat(" at ", oLastModif.toLocaleTimeString()));
 
     document.getElementById("footer-info-lastmod").innerHTML = nFullDate;
+}
+
+if (!document.title.startsWith('HL2GMed - ')) {
+  document.title = 'HL2GMed - ' + document.title;
 }
 
 document.addEventListener("DOMContentLoaded", function () {

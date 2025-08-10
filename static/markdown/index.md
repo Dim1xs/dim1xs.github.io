@@ -6,15 +6,25 @@ Here you will find tutorials, resources and documentation about HL2GMed and its 
 
 The wiki is a public resource and maintained by [Dim1xs](https://github.com/Dim1xs). Want to make your own changes to the wiki? Create a pull request on Wiki GitHub Repository.
 
-# [HL2GMed Manual](/static/pages/manual.html)
- * [Example Link](/static/pages/manual.html)
- * [Example Link](/static/pages/manual.html)
- * [Example Link](/static/pages/manual.html)
+## [HL2GMed Manual](/static/pages/wip.html)
+ * [Example Link](/static/pages/wip.html)
+ * [Example Link](/static/pages/wip.html)
+ * [Example Link](/static/pages/wip.html)
 
-# [Lua Documentation](/static/pages/manual.html)
- * [Example Link](/static/pages/manual.html)
- * [Example Link](/static/pages/manual.html)
- * [Example Link](/static/pages/manual.html)
+## [Lua Documentation](/static/api.html)
+ * [Getting Started](/static/pages/wip.html)
+ * [Lua Tutorials](/static/tutorials.html)
+ * [Lua API Documentation](/static/documentation.html)
+
+## [Other Pages](/static/pages/other.html)
+ * [Frequently Asked Questions](/static/pages/faq.html)
+ * [About HL2GMed](/static/pages/hl2gmed/info.html)
+ * [Media of HL2GMed](/static/pages/hl2gmed/media.html)
+
+# Official Links<hr>
+* [Discord Server](https://discord.com/invite/EscPqybqmG)
+* [YouTube Channel (Null7781)](https://www.youtube.com/@Null7781)
+* [Telegram Channel](http://t.me/hl2gmed)
 
 # Learning<hr>
 
@@ -28,4 +38,3 @@ The wiki is a public resource and maintained by [Dim1xs](https://github.com/Dim1
 ## Source Engine Resources
 * [Valve Developer Wiki](https://developer.valvesoftware.com/wiki/Main_Page) - Official website for all things Source Engine
 * [Source SDK 2013](https://github.com/ValveSoftware/source-sdk-2013) - Source SDK 2013 mod base source code
-* [Source Engine Discord](https://discord.com/invite/SourceEngine)
